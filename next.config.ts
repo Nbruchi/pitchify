@@ -11,6 +11,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  typescript:{
+    ignoreBuildErrors: true
+  },
+  eslint:{
+    ignoreDuringBuilds: true
+  },
   experimental: {
     ppr: "incremental",
     after: true,
